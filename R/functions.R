@@ -11,7 +11,7 @@ is_even <- function(phy) {
 	return(even)
 }
 
-plot_tree <- function(phy, file="tree.pdf") {
+plot_tree <- function(phy, file) {
 	pdf(file=file)
 	plot(phy)
 	dev.off()
